@@ -7,5 +7,43 @@
 body {
   background-color: #010001;
   color: #FFFEFE;
-  border: 1px solid red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+a {
+  font-size: 16px;
+  color: aquamarine;
+}
+
+a :hover {
+  color: aquamarine;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 21px;
+  color: gray;
+}
+
+h1, h2, p, a, img, video {
+  padding: 20px 0;
 }
